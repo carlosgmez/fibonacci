@@ -7,7 +7,7 @@ Clase de pruebas para comprobar el script
 class Test(unittest.TestCase):
     def test_result(self):
         """
-        Comprueba que el quinto número de la sucesión es igual a 3.
+        Comprueba que el quinto número de la sucesión es igual a 3. Es una prueba unitaria (unit test).
         """
         seq = fib(5)
         self.assertEqual(seq[4],3)
